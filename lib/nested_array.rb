@@ -30,8 +30,8 @@ end
 
 def sorted_matrix
   storage_room = [
-    ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
-    ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
+    ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"].sort,
+    ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"].sort
     ]
     storage_room = storage_room.sort 
   # Using Array literal syntax only, build another nested array that 
